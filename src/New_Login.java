@@ -1,19 +1,15 @@
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-
 import SQL_Connection.SqlConnection;
-
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-
 import java.awt.Font;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import javax.swing.JTextField;
 import java.awt.Color;
+import java.awt.EventQueue;
 import javax.swing.JSeparator;
 import javax.swing.JButton;
 import javax.swing.ImageIcon;
@@ -204,7 +200,7 @@ public class New_Login extends JFrame {
 						Connection con=SqlConnection.getCon();
 						Statement st=con.createStatement();
 						
-						st.executeUpdate("insert into admin values('"+name+"',AES_ENCRYPT('"+username+"','PASS'),AES_ENCRYPT('"+password+"','PASS'))");
+						st.executeUpdate("insert into admin values('"+name+"','"+username+"',AES_ENCRYPT('"+password+"','PASS'))");
 						
 						JOptionPane.showMessageDialog(null,"Successfully Added!");
 						setVisible(false);
@@ -212,7 +208,7 @@ public class New_Login extends JFrame {
 					}
 					catch(Exception e1)
 					{
-						JOptionPane.showMessageDialog(null, "This Mobile Number is already taken!!!");
+						JOptionPane.showMessageDialog(null, "Username already taken!!!");
 					}
 				}
 				else
@@ -222,7 +218,7 @@ public class New_Login extends JFrame {
 				}
 			}
 		});
-		btnCreate.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\add.png"));
+		btnCreate.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\add.png"));
 		btnCreate.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnCreate.setBounds(439, 622, 134, 33);
 		contentPane.add(btnCreate);
@@ -234,7 +230,7 @@ public class New_Login extends JFrame {
 				new New_Login().setVisible(true);
 			}
 		});
-		btnReset.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\save.png"));
+		btnReset.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\save.png"));
 		btnReset.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnReset.setBounds(641, 622, 123, 33);
 		contentPane.add(btnReset);
@@ -245,7 +241,7 @@ public class New_Login extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close Jframe.png"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close Jframe.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnClose.setBounds(834, 622, 117, 33);
 		contentPane.add(btnClose);
@@ -257,7 +253,7 @@ public class New_Login extends JFrame {
 				new home().setVisible(true);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton.setBounds(10, 11, 117, 89);
 		contentPane.add(btnNewButton);
 		
@@ -266,7 +262,7 @@ public class New_Login extends JFrame {
 		contentPane.add(separator);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame1.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame1.png"));
 		lblNewLabel_1.setBounds(0, 0, 1352, 719);
 		contentPane.add(lblNewLabel_1);
 	}

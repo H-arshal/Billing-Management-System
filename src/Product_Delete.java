@@ -94,7 +94,7 @@ public class Product_Delete extends JFrame {
 				}
 			}
 		});
-		btnUpdate.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\delete.png"));
+		btnUpdate.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\delete.png"));
 		btnUpdate.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnUpdate.setBounds(482, 666, 117, 29);
 		contentPane.add(btnUpdate);
@@ -112,7 +112,7 @@ public class Product_Delete extends JFrame {
 				new Product_Delete().setVisible(true);
 			}
 		});
-		btnReset.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Reset.png"));
+		btnReset.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Reset.png"));
 		btnReset.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnReset.setBounds(642, 666, 117, 29);
 		contentPane.add(btnReset);
@@ -141,7 +141,7 @@ public class Product_Delete extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close Jframe.png"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close Jframe.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnClose.setBounds(802, 666, 117, 29);
 		contentPane.add(btnClose);
@@ -194,7 +194,7 @@ public class Product_Delete extends JFrame {
 				}
 			}
 		});
-		btnNewButton_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\search.png"));
+		btnNewButton_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\search.png"));
 		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnNewButton_1.setBounds(802, 163, 143, 33);
 		contentPane.add(btnNewButton_1);
@@ -222,12 +222,12 @@ public class Product_Delete extends JFrame {
 				new home().setVisible(true);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton.setBounds(10, 15, 113, 89);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("\r\n");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Product Delete Frame.png"));
+		lblNewLabel.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Product Delete Frame.png"));
 		lblNewLabel.setBounds(442, 15, 477, 96);
 		contentPane.add(lblNewLabel);
 		
@@ -240,7 +240,7 @@ public class Product_Delete extends JFrame {
 		contentPane.add(separator_1);
 		
 		JLabel lblNewLabel_1 = new JLabel("\r\n");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame2.jpg"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame2.jpg"));
 		lblNewLabel_1.setBounds(0, 0, 1352, 719);
 		contentPane.add(lblNewLabel_1);
 	}

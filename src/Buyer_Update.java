@@ -60,13 +60,13 @@ public class Buyer_Update extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnNewButton_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton_1.setBounds(10, 11, 113, 89);
 		contentPane.add(btnNewButton_1);
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setBounds(447, 11, 473, 82);
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Update Buyer Frame.png"));
+		lblNewLabel.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Update Buyer Frame.png"));
 		contentPane.add(lblNewLabel);
 		
 		JSeparator separator = new JSeparator();
@@ -125,7 +125,7 @@ public class Buyer_Update extends JFrame {
 			}
 		});
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 18));
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\search.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\search.png"));
 		btnNewButton.setBounds(814, 156, 128, 31);
 		contentPane.add(btnNewButton);
 		
@@ -208,7 +208,7 @@ public class Buyer_Update extends JFrame {
 				
 			}
 		});
-		btnUpdate.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Update.png"));
+		btnUpdate.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Update.png"));
 		btnUpdate.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnUpdate.setBounds(391, 664, 134, 29);
 		contentPane.add(btnUpdate);
@@ -221,7 +221,7 @@ public class Buyer_Update extends JFrame {
 				
 			}
 		});
-		btnReset.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Reset.png"));
+		btnReset.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Reset.png"));
 		btnReset.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnReset.setBounds(574, 664, 117, 29);
 		contentPane.add(btnReset);
@@ -232,13 +232,13 @@ public class Buyer_Update extends JFrame {
 				System.exit(0);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close Jframe.png"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close Jframe.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnClose.setBounds(745, 664, 117, 29);
 		contentPane.add(btnClose);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame1.png"));
+		lblNewLabel_2.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame1.png"));
 		lblNewLabel_2.setBounds(0, 0, 1366, 756);
 		contentPane.add(lblNewLabel_2);
 	}

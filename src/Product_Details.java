@@ -80,12 +80,12 @@ public class Product_Details extends JFrame {
 				new home().setVisible(true);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton.setBounds(10, 11, 113, 89);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("\r\n");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Product Details Frame.png"));
+		lblNewLabel.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Product Details Frame.png"));
 		lblNewLabel.setBounds(419, 37, 477, 63);
 		contentPane.add(lblNewLabel);
 		
@@ -103,7 +103,7 @@ public class Product_Details extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close Jframe.png"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close Jframe.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnClose.setBounds(1073, 639, 108, 29);
 		contentPane.add(btnClose);
@@ -121,7 +121,7 @@ public class Product_Details extends JFrame {
 				}
 			}
 		});
-		btnPrint.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\print.png"));
+		btnPrint.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\print.png"));
 		btnPrint.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnPrint.setBounds(120, 639, 113, 29);
 		contentPane.add(btnPrint);
@@ -135,7 +135,7 @@ public class Product_Details extends JFrame {
 		scrollPane.setViewportView(table);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame2.jpg"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame2.jpg"));
 		lblNewLabel_1.setBounds(0, 0, 1419, 756);
 		contentPane.add(lblNewLabel_1);
 		}

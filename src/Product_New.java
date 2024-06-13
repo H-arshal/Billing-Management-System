@@ -69,13 +69,13 @@ public class Product_New extends JFrame {
 				new home().setVisible(true);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton.setBounds(10, 21, 113, 89);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setBounds(440, 31, 473, 65);
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\New Product Frame.png"));
+		lblNewLabel.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\New Product Frame.png"));
 		contentPane.add(lblNewLabel);
 		
 		JSeparator separator = new JSeparator();
@@ -219,7 +219,7 @@ public class Product_New extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close Jframe.png"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close Jframe.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnClose.setBounds(796, 617, 129, 33);
 		contentPane.add(btnClose);
@@ -261,13 +261,13 @@ public class Product_New extends JFrame {
 				
 			}
 		});
-		btnSave.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\save.png"));
+		btnSave.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\save.png"));
 		btnSave.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnSave.setBounds(401, 617, 121, 33);
 		contentPane.add(btnSave);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame2.jpg"));
+		lblNewLabel_2.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame2.jpg"));
 		lblNewLabel_2.setBounds(0, 11, 1366, 706);
 		contentPane.add(lblNewLabel_2);
 		addComponentListener(new ComponentAdapter() {

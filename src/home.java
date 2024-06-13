@@ -55,7 +55,7 @@ public class home extends JFrame {
 				
 			}
 		});
-		btnNewButton_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\New Buyer.png"));
+		btnNewButton_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\New Buyer.png"));
 		btnNewButton_1.setBounds(28, 11, 93, 69);
 		contentPane.add(btnNewButton_1);
 		
@@ -66,12 +66,12 @@ public class home extends JFrame {
 				new Product_Details().setVisible(true);
 			}
 		});
-		btnNewButton_3.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Product Details.png"));
+		btnNewButton_3.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Product Details.png"));
 		btnNewButton_3.setBounds(633, 11, 93, 69);
 		contentPane.add(btnNewButton_3);
 		
 		JButton btnNewButton_4 = new JButton("");
-		btnNewButton_4.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\buyer Details.png"));
+		btnNewButton_4.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\buyer Details.png"));
 		btnNewButton_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
@@ -88,7 +88,7 @@ public class home extends JFrame {
 				new Buyer_Delete().setVisible(true);
 			}
 		});
-		btnNewButton_5.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Delete Buyer.png"));
+		btnNewButton_5.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Delete Buyer.png"));
 		btnNewButton_5.setBounds(391, 11, 93, 69);
 		contentPane.add(btnNewButton_5);
 		
@@ -99,7 +99,7 @@ public class home extends JFrame {
 				new Product_New().setVisible(true);
 			}
 		});
-		btnNewButton_6.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\new product.png"));
+		btnNewButton_6.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\new product.png"));
 		btnNewButton_6.setBounds(512, 11, 93, 69);
 		contentPane.add(btnNewButton_6);
 		
@@ -110,7 +110,7 @@ public class home extends JFrame {
 				new Product_Update().setVisible(true);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\update product.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\update product.png"));
 		btnNewButton.setBounds(754, 11, 93, 69);
 		contentPane.add(btnNewButton);
 		
@@ -156,7 +156,7 @@ public class home extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnNewButton_5_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Update Buyer.png"));
+		btnNewButton_5_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Update Buyer.png"));
 		btnNewButton_5_1.setBounds(270, 11, 93, 69);
 		contentPane.add(btnNewButton_5_1);
 		
@@ -167,7 +167,7 @@ public class home extends JFrame {
 				new Product_Delete().setVisible(true);
 			}
 		});
-		btnNewButton_2.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\delete product.png"));
+		btnNewButton_2.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\delete product.png"));
 		btnNewButton_2.setBounds(875, 11, 93, 69);
 		contentPane.add(btnNewButton_2);
 		
@@ -184,7 +184,7 @@ public class home extends JFrame {
 				}
 			}
 		});
-		btnNewButton_2_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Log Out.png"));
+		btnNewButton_2_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Log Out.png"));
 		btnNewButton_2_1.setBounds(1121, 11, 93, 69);
 		contentPane.add(btnNewButton_2_1);
 		
@@ -198,7 +198,7 @@ public class home extends JFrame {
 				}
 			}
 		});
-		btnNewButton_2_2.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Close Application.png"));
+		btnNewButton_2_2.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Close Application.png"));
 		btnNewButton_2_2.setBounds(1242, 11, 93, 69);
 		contentPane.add(btnNewButton_2_2);
 		
@@ -224,7 +224,7 @@ public class home extends JFrame {
 				new Billing().setVisible(true);
 			}
 		});
-		btnNewButton_7.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\billing.png"));
+		btnNewButton_7.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\billing.png"));
 		btnNewButton_7.setBounds(996, 11, 103, 69);
 		contentPane.add(btnNewButton_7);
 		

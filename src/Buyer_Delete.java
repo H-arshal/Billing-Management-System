@@ -1,11 +1,7 @@
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-
-import SQL_Connection.SqlConnection;
-
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
@@ -18,6 +14,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.awt.event.ActionEvent;
+// import SQL_Connection.SqlConnection;
 import java.sql.*;
 import SQL_Connection.SqlConnection;
 import java.awt.Color;
@@ -77,7 +74,7 @@ public class Buyer_Delete extends JFrame {
 		contentPane.add(lblNewLabel_1_3);
 		
 		JButton btnUpdate = new JButton(" Delete");
-		btnUpdate.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\delete.png"));
+		btnUpdate.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\delete.png"));
 		btnUpdate.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				int a=JOptionPane.showConfirmDialog(null,"Do you really want to Delete?","Select",JOptionPane.YES_NO_OPTION);
@@ -119,7 +116,7 @@ public class Buyer_Delete extends JFrame {
 				new Buyer_Delete().setVisible(true);
 			}
 		});
-		btnReset.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Reset.png"));
+		btnReset.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Reset.png"));
 		btnReset.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnReset.setBounds(642, 666, 117, 29);
 		contentPane.add(btnReset);
@@ -152,7 +149,7 @@ public class Buyer_Delete extends JFrame {
 				System.exit(0);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close.jpg"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close.jpg"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnClose.setBounds(802, 666, 117, 29);
 		contentPane.add(btnClose);
@@ -205,7 +202,7 @@ public class Buyer_Delete extends JFrame {
 			}
 		});
 		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 20));
-		btnNewButton_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\search.png"));
+		btnNewButton_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\search.png"));
 		btnNewButton_1.setBounds(802, 163, 143, 33);
 		contentPane.add(btnNewButton_1);
 		
@@ -231,13 +228,13 @@ public class Buyer_Delete extends JFrame {
 				new home().setVisible(true);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton.setBounds(10, 11, 113, 89);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("\r\n");
 		lblNewLabel.setBounds(442, 15, 477, 96);
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Delete Buyer Frame.png"));
+		lblNewLabel.setIcon(new ImageIcon("CD:\\Final Project\\Billing_System_Management\\Icons\\Delete Buyer Frame.png"));
 		contentPane.add(lblNewLabel);
 		
 		JSeparator separator = new JSeparator();
@@ -249,7 +246,7 @@ public class Buyer_Delete extends JFrame {
 		contentPane.add(separator_1);
 		
 		JLabel lblNewLabel_1 = new JLabel("\r\n");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame1.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame1.png"));
 		lblNewLabel_1.setBounds(0, 0, 1352, 719);
 		contentPane.add(lblNewLabel_1);
 	}

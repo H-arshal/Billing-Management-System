@@ -15,7 +15,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTable;
 import java.awt.Cursor;
-import javax.swing.JTable;
+// import javax.swing.JTable;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.sql.*;
@@ -80,12 +80,12 @@ public class Buyer_Details extends JFrame {
 				new home().setVisible(true);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton.setBounds(24, 11, 113, 89);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("\r\n");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Buyer Details Frame.png"));
+		lblNewLabel.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Buyer Details Frame.png"));
 		lblNewLabel.setBounds(431, 11, 477, 96);
 		contentPane.add(lblNewLabel);
 		
@@ -103,7 +103,7 @@ public class Buyer_Details extends JFrame {
 				System.exit(0);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close Jframe.png"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close Jframe.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnClose.setBounds(1087, 639, 108, 29);
 		contentPane.add(btnClose);
@@ -121,7 +121,7 @@ public class Buyer_Details extends JFrame {
 				}
 			}
 		});
-		btnPrint.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\print.png"));
+		btnPrint.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\print.png"));
 		btnPrint.setFont(new Font("Tahoma", Font.BOLD, 16));
 		btnPrint.setBounds(134, 639, 113, 29);
 		contentPane.add(btnPrint);
@@ -136,7 +136,7 @@ public class Buyer_Details extends JFrame {
 
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame1.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame1.png"));
 		lblNewLabel_1.setBounds(0, 0, 1366, 756);
 		contentPane.add(lblNewLabel_1);
 	}

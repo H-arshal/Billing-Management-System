@@ -18,6 +18,7 @@ import java.awt.Label;
 import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.Statement;
 import java.awt.event.ActionEvent;
 import java.awt.Window.Type;
@@ -50,7 +51,7 @@ public class Login extends JFrame {
 		contentPane.setLayout(null);
 		
 		JButton btnNewButton_1 = new JButton(" New Admin?");
-		btnNewButton_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Lock.png"));
+		btnNewButton_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Lock.png"));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
@@ -107,21 +108,46 @@ public class Login extends JFrame {
 		JButton btnNewButton = new JButton("Login");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-					if(textField.getText().equals("Harshal")&&passwordField.getText().equals("1234"))
+				String username=textField.getText();
+				String password=passwordField.getText();
+				try 
+				{
+					
+					Connection con=SqlConnection.getCon();
+					Statement st=con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
+					ResultSet rs=st.executeQuery("select username,AES_DECRYPT(password,'PASS') from admin;");
+					int flag=1;
+					while(rs.next()) 
 					{
-						setVisible(false);
-						new home().setVisible(true);
+						int i=1;
+						String um=rs.getString(i);
+						String pw=rs.getString(i+1);
+			
+						if(um.equals(username)&&pw.equals(password))
+						{
+							flag=0;
+							setVisible(false);
+							new home().setVisible(true);
+						}
+						
 					}
-					else
+					if(flag==1)
 					{
-						JOptionPane.showMessageDialog(null,"Incorrect Password or Username");
+						JOptionPane.showMessageDialog(null, "Username or Password incorrect!!!");
 					}
+					
+				}
+				catch(Exception e1) 
+				{
+					JOptionPane.showMessageDialog(null, e1);
+					
+				}
 			}
-		});
+		});		
 		btnNewButton.setBackground(new Color(255, 255, 255));
 		btnNewButton.setBounds(817, 484, 118, 35);
 		btnNewButton.setHorizontalAlignment(SwingConstants.LEFT);
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Login.jpg"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Login.jpg"));
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 15));
 		contentPane.add(btnNewButton);
 		
@@ -138,12 +164,12 @@ public class Login extends JFrame {
 		});
 		btnClose.setBounds(945, 484, 118, 35);
 		btnClose.setHorizontalAlignment(SwingConstants.LEFT);
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close.jpg"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close.jpg"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 15));
 		contentPane.add(btnClose);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Bill management system in shop.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Bill management system in shop.png"));
 		lblNewLabel_1.setBounds(0, 0, 1364, 756);
 		contentPane.add(lblNewLabel_1);
 	}

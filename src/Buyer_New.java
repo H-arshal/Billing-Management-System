@@ -72,7 +72,7 @@ public class Buyer_New extends JFrame {
 		contentPane.setLayout(null);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\New Buyer Main Frame.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\New Buyer Main Frame.png"));
 		lblNewLabel_1.setBounds(464, 22, 473, 80);
 		contentPane.add(lblNewLabel_1);
 		
@@ -222,7 +222,7 @@ public class Buyer_New extends JFrame {
 		contentPane.add(separator_1);
 		
 		JButton btnSave = new JButton(" Save");
-		btnSave.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\save.png"));
+		btnSave.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\save.png"));
 		btnSave.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnSave.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -257,7 +257,7 @@ public class Buyer_New extends JFrame {
 				new Buyer_New().setVisible(true);
 			}
 		});
-		btnReset.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Reset.png"));
+		btnReset.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Reset.png"));
 		btnReset.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnReset.setBounds(641, 624, 121, 33);
 		contentPane.add(btnReset);
@@ -268,7 +268,7 @@ public class Buyer_New extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnClose.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\close Jframe.png"));
+		btnClose.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\close Jframe.png"));
 		btnClose.setFont(new Font("Tahoma", Font.BOLD, 20));
 		btnClose.setBounds(834, 624, 117, 33);
 		contentPane.add(btnClose);
@@ -280,12 +280,12 @@ public class Buyer_New extends JFrame {
 				setVisible(false);
 			}
 		});
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Back Button.png"));
+		btnNewButton.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Back Button.png"));
 		btnNewButton.setBounds(10, 13, 117, 89);
 		contentPane.add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\harsh\\OneDrive\\Desktop\\DBMS_Project\\Billing_System_Management\\Icons\\Frame1.png"));
+		lblNewLabel.setIcon(new ImageIcon("D:\\Final Project\\Billing_System_Management\\Icons\\Frame1.png"));
 		lblNewLabel.setBounds(0, 0, 1366, 756);
 		contentPane.add(lblNewLabel);
 	}

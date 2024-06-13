@@ -6,20 +6,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/harsh/OneDrive/Desktop/DBMS_Project/Billing_System_Management/itextpdf-5.4.0.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/harsh/OneDrive/Desktop/DBMS_Project/Billing_System_Management/mysql-connector-j-8.0.31.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/harsh/OneDrive/Desktop/DBMS_Project/Billing_System_Management/rs2xml.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/rs2xml.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
